@@ -25,4 +25,8 @@ public class ArrayTest {
         Integer intege2 = Integer.valueOf(1);
         System.out.println(integer==intege2);
     }
+    
+      public static void test1(){
+
+    }
 }
