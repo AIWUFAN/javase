@@ -27,6 +27,7 @@ public class ArrayTest {
     }
     
       public static void test1(){
+      System.out.println("1");
 
     }
 }
