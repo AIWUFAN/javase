@@ -5,10 +5,22 @@ import java.util.Map;
 
 public class ArrayTest {
     public static void main(String[] args) {
-        mapTest();
+        //mapTest();
+//        int a =10;
+//        int b =20;
+//        test1(a,b);
+//        System.out.println(a);
+//        System.out.println(b);
+
+        Student student = new Student();
+        student.setAge(10);
+        test1(student);
+        System.out.println(student);
+
+
     }
 
-    public static void mapTest(){
+    public static void mapTest() {
 //        Map<String, String> map = new HashMap<>();
 //        map.put("1","a");
 //        map.put("2","b");
@@ -16,18 +28,24 @@ public class ArrayTest {
 //        for (Map.Entry<String,String> mm: map.entrySet()) {
 //            System.out.println(map);
 //        }
-      //  System.out.println(map.containsKey("1"));
+        //  System.out.println(map.containsKey("1"));
 
-        Integer a =1;
-        Integer b =1;
-        System.out.println(a==b);
+        Integer a = 1;
+        Integer b = 1;
+        System.out.println(a == b);
         Integer integer = Integer.valueOf(1);
         Integer intege2 = Integer.valueOf(1);
-        System.out.println(integer==intege2);
+        System.out.println(integer == intege2);
     }
-    
-      public static void test1(){
-      System.out.println("1");
 
+    public static void test1(Student obj) {
+//        int temp = x;
+//        x = y;
+//        y = temp;
+//        System.out.println(x);
+//        System.out.println(y);
+        Student student = new Student();
+        student.setAge(20);
+        // System.out.println(obj);
     }
 }
