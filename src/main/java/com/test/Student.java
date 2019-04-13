@@ -2,6 +2,15 @@ package com.test;
 
 public class Student {
     private Integer age;
+    private boolean isSuccess;
+
+    public boolean isSuccess() {
+        return isSuccess;
+    }
+
+    public void setSuccess(boolean success) {
+        isSuccess = success;
+    }
 
     public Integer getAge() {
         return age;
