@@ -17,7 +17,7 @@ public class Demo {
         System.out.println("demo2");
         System.out.println("demo3");
         System.out.println("demo4");
-        System.out.println("demo6");
+        System.out.println("demo5");
     }
 
     public static void testString(String str) {
