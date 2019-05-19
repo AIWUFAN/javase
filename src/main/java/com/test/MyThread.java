@@ -2,6 +2,7 @@ package com.test;
 
 public class MyThread implements Runnable {
 
+
     static MyThread instance = new MyThread();
 
     static int j = 0;
