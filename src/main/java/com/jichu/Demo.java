@@ -16,6 +16,7 @@ public class Demo {
         System.out.println("demo1");
         System.out.println("demo2");
         System.out.println("demo3");
+        System.out.println("demo4");
     }
 
     public static void testString(String str) {
