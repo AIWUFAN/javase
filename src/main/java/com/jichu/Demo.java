@@ -1,8 +1,6 @@
 package com.jichu;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Demo {
     public static void main(String[] args) {
@@ -13,6 +11,7 @@ public class Demo {
         int[] arr = {2, 7, 11, 15};
         int target = 9;
         String str="111";
+        List<String> list = new ArrayList<>();
         System.out.println(Arrays.toString(test3(arr, target)));
         System.out.println("demo1");
         System.out.println("demo2");
@@ -21,6 +20,7 @@ public class Demo {
         System.out.println("demo5");
         System.out.println("demo6");
         System.out.println("demo7");
+        System.out.println("demo8");
     }
 
     public static void testString(String str) {
@@ -79,4 +79,6 @@ public class Demo {
         }
         return new int[]{-1, -1};
     }
+
+
 }
