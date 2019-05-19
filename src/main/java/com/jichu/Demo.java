@@ -13,6 +13,7 @@ public class Demo {
         int[] arr = {2, 7, 11, 15};
         int target = 9;
         System.out.println(Arrays.toString(test3(arr, target)));
+        System.out.println("demo1");
     }
 
     public static void testString(String str) {
