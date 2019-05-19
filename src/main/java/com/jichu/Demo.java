@@ -14,6 +14,7 @@ public class Demo {
         int target = 9;
         System.out.println(Arrays.toString(test3(arr, target)));
         System.out.println("demo1");
+        System.out.println("demo2");
         System.out.println("demo3");
         System.out.println("demo4");
         System.out.println("demo5");
