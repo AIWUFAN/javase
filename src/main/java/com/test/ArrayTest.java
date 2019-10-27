@@ -37,6 +37,9 @@ public class ArrayTest {
         Integer integer = Integer.valueOf(1);
         Integer intege2 = Integer.valueOf(1);
         System.out.println(integer == intege2);
+        System.out.println("111");
+        System.out.println("111");
+        System.out.println("111");
     }
 
     public static void test1(Student obj) {
